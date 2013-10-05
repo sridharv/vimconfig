@@ -19,7 +19,10 @@ else
 endif
 colorscheme solarized
 
+let g:Tex_DefaultTargetFormat = "pdf"
+
 " Older configs maintained for information
 "
 " let g:golang_goroot = \"/Users/sridharvenkatakrishnan/scratch/go/current/go\"
 " let g:golang_gopath = \"/Users/sridharvenkatakrishnan/go_workspace\"
+
