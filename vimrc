@@ -14,10 +14,8 @@ set laststatus=2
 syntax enable
 if has('gui_running')
     set background=light
-else
-    set background=dark
+    colorscheme solarized
 endif
-colorscheme solarized
 
 let g:Tex_DefaultTargetFormat = "pdf"
 
