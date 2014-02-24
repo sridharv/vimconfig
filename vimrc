@@ -18,9 +18,8 @@ if has('gui_running')
 endif
 
 let g:Tex_DefaultTargetFormat = "pdf"
+let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabClosePreviewOnPopupClose = 1
+set completeopt-=preview
 
-" Older configs maintained for information
-"
-" let g:golang_goroot = \"/Users/sridharvenkatakrishnan/scratch/go/current/go\"
-" let g:golang_gopath = \"/Users/sridharvenkatakrishnan/go_workspace\"
 

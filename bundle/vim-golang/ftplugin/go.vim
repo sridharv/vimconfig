@@ -15,4 +15,8 @@ setlocal commentstring=//\ %s
 
 let b:undo_ftplugin = "setl com< cms<"
 
+let &tags = $GOPATH.'/.tags'
+
+let gofmt_command=goimports
+
 " vim:ts=4:sw=4:et
