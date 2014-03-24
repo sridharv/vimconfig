@@ -9,9 +9,13 @@ if exists("b:did_ftplugin")
 endif
 let b:did_ftplugin = 1
 
+setlocal omnifunc=gocomplete#Complete
 setlocal comments=s1:/*,mb:*,ex:*/,://
 setlocal commentstring=//\ %s
 
 let b:undo_ftplugin = "setl com< cms<"
 
+let &tags = $GOPATH.'/.tags'
+
+let gofmt_command=goimports
 " vim:ts=4:sw=4:et
